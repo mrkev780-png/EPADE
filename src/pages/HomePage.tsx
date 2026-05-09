@@ -1,6 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { Button, Card } from '@components';
-import { useScrollAnimation } from '@hooks';
 
 /**
  * Page d'accueil (Home)

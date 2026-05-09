@@ -14,11 +14,17 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
+      "@components": ["src/components/index.ts"],
       "@components/*": ["src/components/*"],
+      "@pages": ["src/pages/index.ts"],
       "@pages/*": ["src/pages/*"],
+      "@hooks": ["src/hooks/index.ts"],
       "@hooks/*": ["src/hooks/*"],
+      "@utils": ["src/utils/index.ts"],
       "@utils/*": ["src/utils/*"],
+      "@styles": ["src/styles"],
       "@styles/*": ["src/styles/*"],
+      "@types": ["src/types/index.ts"],
       "@types/*": ["src/types/*"]
     },
     "strict": true,

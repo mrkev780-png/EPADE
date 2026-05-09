@@ -1,5 +1,3 @@
-import React from 'react';
-
 /**
  * Combiner classNames
  */
@@ -53,13 +51,11 @@ export const animateCounter = (
   duration: number = 2000
 ): Promise<void> => {
   return new Promise((resolve) => {
-    let start = 0;
     const startTime = Date.now();
 
     const update = () => {
       const now = Date.now();
       const progress = Math.min((now - startTime) / duration, 1);
-      const current = Math.floor(progress * target);
       
       // Mettre à jour le DOM ici si nécessaire
       
