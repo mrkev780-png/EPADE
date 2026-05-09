@@ -1,0 +1,9 @@
+# Vercel Deployment Configuration
+
+[env]
+VITE_API_URL = "https://api.ompdd.org"
+VITE_ENV = "production"
+
+[build]
+command = "npm run build"
+output = "dist"

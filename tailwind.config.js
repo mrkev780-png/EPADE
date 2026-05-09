@@ -1,0 +1,90 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f4ff',
+          100: '#e0e9ff',
+          500: '#0033A0',
+          600: '#002e8a',
+          700: '#002674',
+          800: '#001d4d',
+          900: '#001433',
+        },
+        secondary: {
+          50: '#faf7f1',
+          100: '#f5efe3',
+          500: '#C9A227',
+          600: '#b89111',
+          700: '#9d7b0a',
+          800: '#7a5f08',
+          900: '#5d4806',
+        },
+        neutral: {
+          50: '#f9fafb',
+          100: '#f3f4f6',
+          200: '#e5e7eb',
+          300: '#d1d5db',
+          400: '#9ca3af',
+          500: '#6b7280',
+          600: '#4b5563',
+          700: '#374151',
+          800: '#1f2937',
+          900: '#111827',
+        },
+        accent: {
+          blue: '#0033A0',
+          gold: '#C9A227',
+          light: '#F5F5F5',
+          white: '#FFFFFF',
+        },
+      },
+      spacing: {
+        'xs': '4px',
+        'sm': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        '2xl': '32px',
+        '3xl': '48px',
+        '4xl': '64px',
+      },
+      fontSize: {
+        'xs': ['12px', { lineHeight: '16px' }],
+        'sm': ['14px', { lineHeight: '20px' }],
+        'base': ['16px', { lineHeight: '24px' }],
+        'lg': ['18px', { lineHeight: '28px' }],
+        'xl': ['20px', { lineHeight: '28px' }],
+        '2xl': ['24px', { lineHeight: '32px' }],
+        '3xl': ['32px', { lineHeight: '40px' }],
+        '4xl': ['40px', { lineHeight: '48px' }],
+        '5xl': ['48px', { lineHeight: '56px' }],
+      },
+      fontFamily: {
+        'sans': ['Inter', 'Open Sans', '-apple-system', 'BlinkMacSystemFont', 'segoe ui', 'helvetica neue', 'arial', 'sans-serif'],
+      },
+      borderRadius: {
+        'none': '0px',
+        'sm': '4px',
+        'md': '4px',
+        'lg': '4px',
+        'full': '9999px',
+      },
+      boxShadow: {
+        'none': 'none',
+        'sm': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+        'md': '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+        'lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+      },
+      maxWidth: {
+        'container': '1200px',
+      },
+    },
+  },
+  plugins: [],
+}

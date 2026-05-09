@@ -1,0 +1,10 @@
+# Site map for OMPDDUser-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+Sitemap: https://ompdd.org/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
